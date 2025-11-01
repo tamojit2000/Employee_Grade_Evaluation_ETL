@@ -88,7 +88,7 @@ Includes employees with poor RTO or low Jira performance, excluding suppressed e
    * Pull data from:
 
      * SQL / CSV / API sources containing the above tables.
-   * Load all datasets into a staging layer (e.g., Spark, Pandas, or SQL staging tables).
+   * Load all datasets into a staging layer and create LRFs (e.g., Spark, Pandas, or SQL staging tables).
 
 2. **Transform**
 
@@ -124,6 +124,8 @@ Includes employees with poor RTO or low Jira performance, excluding suppressed e
 
 ---
 
+## References 
+<img width="1097" height="844" alt="image" src="https://github.com/user-attachments/assets/0bea3e7c-e6a3-4523-a9ff-e9fbedfe3ff6" />
 
 
 
