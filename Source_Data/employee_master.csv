@@ -1,0 +1,6 @@
+Emp_Id,Emp_Name,Emp_Manager,Emp_Lan,Emp_Age,Emp_Gender,Emp_Exp
+E001,John Doe,Michael Brown,English,34,Male,6
+E002,Jane Smith,Michael Brown,English,29,Female,3
+E003,Akira Tanaka,Satoshi Ito,Japanese,41,Male,12
+E004,Maria Garcia,Ana Lopez,Spanish,37,Female,9
+E005,Chen Wei,Li Zhang,Chinese,30,Male,5

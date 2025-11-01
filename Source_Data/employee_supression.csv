@@ -1,0 +1,7 @@
+Emp_Id,Emp_Name,Emp_Manager,Approver,Status
+E001,John Doe,Michael Brown,Michael Brown,Active
+E002,Jane Smith,Michael Brown,Samantha Green,Suppressed
+E003,Akira Tanaka,Satoshi Ito,Satoshi Ito,Active
+E004,Maria Garcia,Ana Lopez,Ana Lopez,Pending
+E005,Chen Wei,Li Zhang,Li Zhang,Suppressed
+E006,Olivia Park,Michael Brown,Samantha Green,Active

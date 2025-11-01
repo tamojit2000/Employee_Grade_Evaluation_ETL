@@ -1,0 +1,41 @@
+Data Source
+
+Employee_Attendance
+Emp_Id,Emp_Name,Entry,Exit
+
+
+Employee_Jira
+Emp_Id,Emp_Name,Jira_Points
+
+
+Employee_PTO
+Emp_Id,Emp_Name,Date
+
+
+Employee_Master
+Emp_Id,Emp_Name,Emp_Manager,Emp_Lan,Emp_Age,Emp_Gender,Emp_Exp
+
+
+Employee_Supression
+Emp_Id,Emp_Name,Emp_Manager,Approver,Status
+
+============================================================================
+Output
+
+Negative_Table
+Emp_Id,Emp_Name,Emp_Manager,Jira_Points,RTO
+
+
+Grade_Table
+Emp_Id,Emp_Name,Emp_Manager,Jira_Points,RTO,Grade_Score
+
+
+
+Design
+RTO=days/week => min=3 else Negative
+
+Score=(Rto min 3 = 1) + Jira_Points/200*100 => round(2)
+
+Negative Table Jira_Points/200*100 <=50 or RTO<3
+
+Exception in Negative Table is from Employee_Supression
